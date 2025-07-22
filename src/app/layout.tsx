@@ -8,8 +8,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "PET SITES BOILERPLATE",
-  description: "Templates para projetos criados no setor de Sites do PET-SI",
+  title: "BXcomp 2025",
+  description: "Site oficial do BXcomp 2025.",
 };
 
 export default function RootLayout({
