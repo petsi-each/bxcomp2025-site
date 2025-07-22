@@ -2,8 +2,6 @@
 
 <div align="center">
 
-<b> Para começar, leia a documentação do PET-SI sobre <a href="" target="_blank">como iniciar com o projeto</a> </b>
-
 <img src="http://www.each.usp.br/petsi/wp-content/uploads/2020/03/cropped-logo-pet-si-horizontal-1024x215.png" alt="Logo PET SI" width="700">
 
 <h1> Site do BXcomp 2025 </h1>
