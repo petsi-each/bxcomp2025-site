@@ -6,7 +6,7 @@
 
 <img src="http://www.each.usp.br/petsi/wp-content/uploads/2020/03/cropped-logo-pet-si-horizontal-1024x215.png" alt="Logo PET SI" width="700">
 
-<h1> Nome do projeto </h1>
+<h1> Site do BXcomp 2025 </h1>
 
 [![Website](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://petsi-each.github.io/pet-sites-boilerplate/)
 [![PET-SI](https://img.shields.io/badge/Instagram-PET%20SI-darkred)](https://www.instagram.com/petsieach/)
@@ -48,7 +48,7 @@ Breve descrição do projeto e do seu objetivo.
 
 <div align="center">
     
-[![Veja no Figma](https://img.shields.io/badge/Figma-Ver%20design-darkred?logo=figma&logoColor=f5f5f5)](linkdofigma)
+[![Veja no Figma](https://img.shields.io/badge/Figma-Ver%20design-darkred?logo=figma&logoColor=f5f5f5)]([linkdofigma](https://www.figma.com/design/RMtykOzk5fL6GtJDPArJqF/BXCOMP25?node-id=3076-30&p=f&t=PRFtwAdcxbtDfboD-0))
 
 
 </div>
@@ -64,7 +64,7 @@ Requisitos:
 - Git
 
 ```bash
-git clone git@github.com:petsi-each/nomedoprojeto.git
+git clone git@github.com:petsi-each/bxcomp2025-site.git
 cd nomedoprojeto
 npm i
 ```
