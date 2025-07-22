@@ -9,9 +9,6 @@
 [![Website](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://petsi-each.github.io/pet-sites-boilerplate/)
 [![PET-SI](https://img.shields.io/badge/Instagram-PET%20SI-darkred)](https://www.instagram.com/petsieach/)
 
-
-Breve descrição do projeto e do seu objetivo.
-
 </div>
 
 
@@ -46,7 +43,7 @@ Breve descrição do projeto e do seu objetivo.
 
 <div align="center">
     
-[![Veja no Figma](https://img.shields.io/badge/Figma-Ver%20design-darkred?logo=figma&logoColor=f5f5f5)]([linkdofigma](https://www.figma.com/design/RMtykOzk5fL6GtJDPArJqF/BXCOMP25?node-id=3076-30&p=f&t=PRFtwAdcxbtDfboD-0))
+[![Veja no Figma](https://img.shields.io/badge/Figma-Ver%20design-darkred?logo=figma&logoColor=f5f5f5)](https://www.figma.com/design/RMtykOzk5fL6GtJDPArJqF/BXCOMP25?node-id=3076-30&p=f&t=PRFtwAdcxbtDfboD-0)
 
 
 </div>
