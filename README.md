@@ -81,15 +81,3 @@ npm run dev
 O projeto estará rodando localmente no link que aparece no terminal. Geralmente, será http://localhost:3000
 
 <br/><br/>
-
-### 📓 Outros sistemas e passo-a-passo
-
-Caso tenha outros sistemas ou tutoriais, colqoue aqui
-
-<br/><br/>
-
-## 🫂 Contribuidores
-
-<a href = "https://github.com/petsi-each/pet-sites-boilerplate/contributors">
-  <img src = "https://contrib.rocks/image?repo=petsi-each/pet-sites-boilerplate"/>
-</a>
