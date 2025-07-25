@@ -1,7 +1,7 @@
 [
     {
         "nome": "Andressa Nardy",
-        "linkedinUrl": "#",
+        "linkedinUrl": "https://www.linkedin.com/in/andressa-nardy/",
         "imgSrc": "",
         "dev": false
     },
@@ -25,16 +25,11 @@
     },
     {
         "nome": "Arthur Hernandes",
-        "linkedinUrl": "#",
+        "linkedinUrl": "https://www.linkedin.com/in/arthur-hernandes-3a1838281/",
         "imgSrc": "",
         "dev": true
     },
-    {
-        "nome": "Anna Luísa",
-        "linkedinUrl": "#",
-        "imgSrc": "",
-        "dev": false
-    },
+
     {
         "nome": "Dani Takara",
         "linkedinUrl": "https://www.linkedin.com/in/dani-takara-869960289/",
@@ -49,9 +44,9 @@
     },
     {
         "nome": "Henrique Lam",
-        "linkedinUrl": "#",
+        "linkedinUrl": "https://www.linkedin.com/in/henrique-lam-ka-shing-chen/",
         "imgSrc": "",
-        "dev": false
+        "dev": true
     },
     {
         "nome": "Giovani",
@@ -67,13 +62,13 @@
     },
     {
         "nome": "Júlio Arroio",
-        "linkedinUrl": "#",
+        "linkedinUrl": "https://www.linkedin.com/in/j%C3%BAlio-arroio-silva-77a15b2a7/",
         "imgSrc": "",
         "dev": false
     },
     {
         "nome": "Luan Pinheiro",
-        "linkedinUrl": "#",
+        "linkedinUrl": "https://www.linkedin.com/in/luanpereirapinheiro/",
         "imgSrc": "",
         "dev": true
     },
@@ -103,13 +98,13 @@
     },
     {
         "nome": "Rayssa",
-        "linkedinUrl": "#",
+        "linkedinUrl": "https://www.linkedin.com/in/rayssabuarque/",
         "imgSrc": "",
         "dev": true
     },
     {
         "nome": "Tae Jin Chun",
-        "linkedinUrl": "#",
+        "linkedinUrl": "https://www.linkedin.com/in/tae-jin-chun/",
         "imgSrc": "",
         "dev": false
     },
@@ -121,13 +116,13 @@
     },
     {
         "nome": "Vinícius",
-        "linkedinUrl": "#",
+        "linkedinUrl": "https://www.linkedin.com/in/vinicius-francisco-oliveira/",
         "imgSrc": "",
         "dev": false
     },
     {
         "nome": "Vitória Castro",
-        "linkedinUrl": "#",
+        "linkedinUrl": "https://www.linkedin.com/in/vitoriacastros/",
         "imgSrc": "",
         "dev": false
     }
