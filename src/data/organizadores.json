@@ -15,7 +15,7 @@
     {
         "nome": "Dani Takara",
         "linkedinUrl": "https://www.linkedin.com/in/dani-takara-869960289/",
-        "imgSrc": "",
+        "imgSrc": "./img/fotos_organizadores/dani.jpg",
         "dev": true
     },
     {
@@ -33,7 +33,7 @@
     {
         "nome": "João Victor",
         "linkedinUrl": "https://www.linkedin.com/in/jpereiralopes-0a5109206/",
-        "imgSrc": "",
+        "imgSrc": "./img/fotos_organizadores/joao.jpg",
         "dev": true
     },
     {
@@ -57,7 +57,7 @@
     {
         "nome": "Mari",
         "linkedinUrl": "#",
-        "imgSrc": "",
+        "imgSrc": "./img/fotos_organizadores/mari.jpg",
         "dev": false
     },
     {
