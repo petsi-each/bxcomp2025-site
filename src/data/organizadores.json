@@ -15,7 +15,7 @@
     {
         "nome": "Dani Takara",
         "linkedinUrl": "https://www.linkedin.com/in/dani-takara-869960289/",
-        "imgSrc": "",
+        "imgSrc": "../imgs/dani.jpg",
         "dev": true
     },
     {
@@ -33,7 +33,7 @@
     {
         "nome": "João Victor",
         "linkedinUrl": "https://www.linkedin.com/in/jpereiralopes-0a5109206/",
-        "imgSrc": "",
+        "imgSrc": "../imgs/joao.jpg",
         "dev": true
     },
     {
