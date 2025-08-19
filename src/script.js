@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('container-organizadores');
-    const urlDados = 'organizadores.json';
+    const urlDados = './data/organizadores.json';
 
     fetch(urlDados)
         .then(response => {
