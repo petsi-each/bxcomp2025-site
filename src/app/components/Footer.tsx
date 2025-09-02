@@ -1,10 +1,12 @@
+"use client"
+
 const Footer = () => {
     return (
-        <div className="fixed bottom-0 left-0 w-full">
+        <div className="bottom-0 left-0 w-full">
             {/* Elemento SVG que cria a forma de onda */}
             <svg 
                 viewBox="0 0 1440 320" 
-                className="w-full h-80 -mb-1 fill-creme" 
+                className="absolute w-full md:h-80 h-[505px] -mb-1 fill-creme" 
                 preserveAspectRatio="none"
             >
                 <path 
@@ -14,8 +16,8 @@ const Footer = () => {
             </svg>
             
             {/* Conteúdo do footer posicionado sobre a onda */}
-            <div className="absolute top-2/3 left-0 w-full flex justify-center items-end pb-16">
-                <div className="max-w-6xl w-full flex justify-between items-center px-4">
+            <div className="relative left-0 md:top-[200px] top-[320px] w-full flex justify-center items-end">
+                <div className="max-w-6xl w-full flex flex-col md:flex-row justify-between items-center px-4">
                     <div className="text-preto text-1xl font-normal font-roboto">
                         Desenvolvido por PET-SI 2025
                     </div>
