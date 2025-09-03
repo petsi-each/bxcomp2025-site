@@ -4,9 +4,9 @@ import "./Organizadores.css"
 
 export default function Organizadores(){
     return (
-        <section>
+        <section className="mt-[130px]">
             <div className="titulo">
-                <h1>Organizadores</h1>
+                <h1 className="text-4xl">Organizadores</h1>
             </div>
             <div id="container-organizadores" className="coluna-organizador">
                 {carregarTodos()}

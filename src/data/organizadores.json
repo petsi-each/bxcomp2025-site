@@ -28,7 +28,7 @@
         "nome": "Giovani",
         "linkedinUrl": "https://www.linkedin.com/in/lucas-giovani",
         "imgSrc": "./img/fotos_organizadores/giovani.jpg",
-        "dev": false
+        "dev": true
     },
     {
         "nome": "João Victor",
@@ -40,13 +40,13 @@
         "nome": "Júlio Arroio",
         "linkedinUrl": "https://www.linkedin.com/in/j%C3%BAlio-arroio-silva-77a15b2a7/",
         "imgSrc": "./img/fotos_organizadores/julio.jpg",
-        "dev": false
+        "dev": true
     },
     {
         "nome": "Luan Pinheiro",
         "linkedinUrl": "https://www.linkedin.com/in/luanpereirapinheiro/",
         "imgSrc": "./img/fotos_organizadores/luan.jpg",
-        "dev": true
+        "dev": false
     },
     {
         "nome": "Luísa",
@@ -64,7 +64,7 @@
         "nome": "Marcos K.",
         "linkedinUrl": "https://www.linkedin.com/in/marcos-ryoiti-kurosawa-5b12912b3/",
         "imgSrc": "./img/fotos_organizadores/marcos.jpg",
-        "dev": false
+        "dev": true
     },
     {
         "nome": "Rayssa",
@@ -94,6 +94,6 @@
         "nome": "Vitória Castro",
         "linkedinUrl": "https://www.linkedin.com/in/vitoriacastros/",
         "imgSrc": "./img/fotos_organizadores/tori.jpg",
-        "dev": false
+        "dev": true
     }
 ]
