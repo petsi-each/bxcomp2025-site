@@ -1,5 +1,11 @@
 import Image from 'next/image'
-import { Equipe } from "./Equipes"
+
+export interface Equipe {
+    nome: string,
+    membros: string[],
+    pontos: number[],
+    iconPath: string
+}
 
 interface RankingProps {
     equipes: Equipe[],
