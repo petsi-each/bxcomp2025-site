@@ -14,7 +14,7 @@ const Header = () => {
             </Link>
 
             {/* Desktop */}
-            <div className="hidden md:flex w-[850px] flex justify-evenly items-center py-2">
+            <div className="hidden [@media(min-width:900px)]:flex w-[850px] flex justify-evenly items-center py-2">
                 <Link 
                     href="/regulamento"
                     className="text-branco text-sm md:text-sm font-roboto whitespace-nowrap hover:text-azulciano transition-colors"
@@ -48,23 +48,24 @@ const Header = () => {
             </div>
 
             {/* Mobile */}
-            {isOpen && <div className="md:hidden bg-branco absolute top-0 right-0 flex flex-col w-[70%] h-[100vh] text-preto">
-                <button onClick={() => {
+            {isOpen && <div className="[@media(min-width:900px)]:hidden bg-creme absolute top-0 right-0 flex flex-col w-[70%] h-[100vh] text-preto">
+                <button className="flex justify-end" onClick={() => {
                     setIsOpen(!isOpen)
-                }}><HiX></HiX></button>
-                <Link className="p-5 border-b-2 border-creme" href="/regulamento">Regulamento</Link>
-                <Link className="p-5 border-b-2 border-creme" href="/etapas">Etapas & Desafios</Link>
-                <Link className="p-5 border-b-2 border-creme" href="/ranking">Ranking & Grupos</Link>
-                <Link className="p-5 border-b-2 border-creme" href="/sobre">O que é o BXCOMP?</Link>
-                <Link className="p-5 border-b-2 border-creme" href="/anteriores">Anos anteriores</Link>
+                }}><HiX className="w-[35px] h-[30px]"></HiX></button>
+                <Link className="p-5" href="/regulamento">Regulamento</Link>
+                <Link className="p-5 border-t-2 border-branco" href="/etapas">Etapas & Desafios</Link>
+                <Link className="p-5 border-t-2 border-branco" href="/ranking">Ranking & Grupos</Link>
+                <Link className="p-5 border-t-2 border-branco" href="/sobre">O que é o BXCOMP?</Link>
+                <Link className="p-5 border-t-2 border-branco" href="/anteriores">Anos anteriores</Link>
+                <img src="./logo.png" className="w-[150px] m-auto"></img>
             </div>}
 
             <button
-                className="md:hidden text-2xl z-20"
+                className="[@media(min-width:900px)]:hidden text-2xl z-1"
                 onClick={() => {
                     setIsOpen(!isOpen)
                 }}>
-                <HiMenu />
+                <HiMenu className="w-[35px] h-[30px]"></HiMenu>
             </button>
 
         </header>
