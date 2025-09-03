@@ -22,7 +22,8 @@ const config: Config = {
       },
       fontFamily: {
         eloquent: ['EloquentJFRegularPro', 'sans-serif'],
-        times: ['"Times New Roman"', 'Times', 'serif']
+        times: ['"Times New Roman"', 'Times', 'serif'],
+        cinzel: ['Cinzel Decorative', 'serif']
       }
     },
   },
