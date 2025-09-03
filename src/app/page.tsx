@@ -1,5 +1,5 @@
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './components/HeaderFooter/Header';
+import Footer from './components/HeaderFooter/Footer';
 import "./globals.css";
 
 export default function Home() {
