@@ -8,7 +8,7 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="z-10 flex fixed w-full justify-between bg-azulescuro items-center py-[5px] pl-8">
+        <header className="z-10 flex fixed top-0 w-full justify-between bg-azulescuro items-center py-[5px] pl-8">
             <Link href="/">
                 <img className="w-[160px]" src="./LogoBX.png"></img>
             </Link>
@@ -61,7 +61,7 @@ const Header = () => {
             </div>}
 
             <button
-                className="[@media(min-width:900px)]:hidden text-2xl z-1"
+                className="[@media(min-width:900px)]:hidden mr-4 text-2xl z-1"
                 onClick={() => {
                     setIsOpen(!isOpen)
                 }}>

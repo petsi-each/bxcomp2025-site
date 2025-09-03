@@ -64,7 +64,7 @@ const PointBar: React.FC<PointBarProps> = ({ equipe, topScores }) => {
 
             {/* Descrição da equipe no mobile */}
             <div className="md:hidden w-screen px-8 mb-4">
-                <h2 className="text-2xl relative z-10 truncate">{equipe.nome}</h2>
+                <h2 className="[@media(min-width:900px)]:text-2xl text-xl relative z-10 truncate">{equipe.nome}</h2>
                 <p className="text-md font-bold">{totalPontos} pontos</p>
             </div>
 
@@ -123,8 +123,8 @@ const Ranking: React.FC<RankingProps> = ({ equipes, displayQuantity = -1 }) => {
     const displayEquipes = displayQuantity < 0 ? sortedEquipes : sortedEquipes.slice(0, displayQuantity) // Apresenta displayQuantity itens do array caso um valor seja determinado
 
     return (
-        <section className="grid grid-rows-1 gap-8 md:gap-2" style={{marginLeft: "35px", marginTop: "35px", marginBottom: "35px"}}>
-            <h1 className="text-5xl font-semibold font-cinzel bg-gradient-to-b from-ouro via-amarelo to-amarelo text-transparent bg-clip-text" style={{height: '65px', paddingLeft: "2rem;", marginTop: "10px" }}>Ranking</h1>
+        <section className="grid grid-rows-1 gap-8 md:gap-2 [@media(min-width:900px)]:ml-[35px]" style={{marginTop: "130px", marginBottom: "35px"}}>
+            <h1 className="text-4xl font-semibold font-cinzel bg-gradient-to-b from-ouro via-amarelo to-amarelo text-transparent bg-clip-text" style={{height: '65px', paddingLeft: "2rem;", marginTop: "10px" }}>Ranking</h1>
             {displayEquipes.map((equipe, index) => {
                 return (
                     <PointBar key={index} equipe={equipe} topScores={topScores} />
