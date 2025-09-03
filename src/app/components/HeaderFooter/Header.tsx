@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <header className="z-10 flex fixed w-full justify-between bg-azulescuro items-center py-[5px] pl-8">
             <Link href="/">
-                <img className="w-[150px]" src="./LogoBX.png"></img>
+                <img className="w-[160px]" src="./LogoBX.png"></img>
             </Link>
 
             {/* Desktop */}
