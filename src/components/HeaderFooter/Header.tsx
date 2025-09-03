@@ -16,31 +16,31 @@ const Header = () => {
             {/* Desktop */}
             <div className="hidden [@media(min-width:900px)]:flex w-[850px] flex justify-evenly items-center py-2">
                 <Link 
-                    href="/regulamento"
+                    href="/Regulamento"
                     className="text-branco text-sm md:text-sm font-roboto whitespace-nowrap hover:text-azulciano transition-colors"
                 >
                     Regulamento
                 </Link>
                 <Link 
-                    href="/etapas"
+                    href="/EtapaseDesafios"
                     className="text-branco text-sm md:text-sm font-roboto whitespace-nowrap hover:text-azulciano transition-colors"
                 >
                     Etapas & Desafios
                 </Link>
                 <Link 
-                    href="/ranking"
+                    href="/RankingeGrupos"
                     className="text-branco text-sm md:text-sm font-roboto whitespace-nowrap hover:text-azulciano transition-colors"
                 >
                     Ranking & Grupos
                 </Link>
                 <Link 
-                    href="/sobre"
+                    href="/Sobre"
                     className="text-branco text-sm md:text-sm font-roboto whitespace-nowrap hover:text-azulciano transition-colors"
                 >
                     O que é o BXCOMP?
                 </Link>
                 <Link 
-                    href="/anteriores"
+                    href="/AnosAnteriores"
                     className="text-branco text-sm md:text-sm font-roboto whitespace-nowrap hover:text-azulciano transition-colors"
                 >
                     Anos anteriores
@@ -52,11 +52,11 @@ const Header = () => {
                 <button className="flex justify-end" onClick={() => {
                     setIsOpen(!isOpen)
                 }}><HiX className="w-[35px] h-[30px]"></HiX></button>
-                <Link className="p-5" href="/regulamento">Regulamento</Link>
-                <Link className="p-5 border-t-2 border-branco" href="/etapas">Etapas & Desafios</Link>
-                <Link className="p-5 border-t-2 border-branco" href="/ranking">Ranking & Grupos</Link>
-                <Link className="p-5 border-t-2 border-branco" href="/sobre">O que é o BXCOMP?</Link>
-                <Link className="p-5 border-t-2 border-branco" href="/anteriores">Anos anteriores</Link>
+                <Link className="p-5" href="/Regulamento">Regulamento</Link>
+                <Link className="p-5 border-t-2 border-branco" href="/EtapaseDesafios">Etapas & Desafios</Link>
+                <Link className="p-5 border-t-2 border-branco" href="/RankingeGrupos">Ranking & Grupos</Link>
+                <Link className="p-5 border-t-2 border-branco" href="/Sobre">O que é o BXCOMP?</Link>
+                <Link className="p-5 border-t-2 border-branco" href="/AnosAnteriores">Anos anteriores</Link>
                 <img src="./logo.png" className="w-[150px] m-auto"></img>
             </div>}
 

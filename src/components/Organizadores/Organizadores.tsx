@@ -1,4 +1,4 @@
-import organizadoresList from "../../../data/organizadores.json";
+import organizadoresList from "../../data/organizadores.json";
 import Organizador from "./Organizador";
 import "./Organizadores.css"
 

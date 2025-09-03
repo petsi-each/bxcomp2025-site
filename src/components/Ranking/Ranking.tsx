@@ -130,7 +130,7 @@ const Ranking: React.FC<RankingProps> = ({ equipes, displayQuantity = -1 }) => {
 
     return (
         <section className="grid grid-rows-1 gap-8 md:gap-2 [@media(min-width:900px)]:ml-[35px]" style={{marginTop: "130px", marginBottom: "35px"}}>
-            <h1 className="text-4xl font-semibold font-cinzel bg-gradient-to-b from-ouro via-amarelo to-amarelo text-transparent bg-clip-text" style={{height: '65px', paddingLeft: "2rem;", marginTop: "10px" }}>Ranking</h1>
+            <h1 className="text-4xl font-semibold font-cinzel bg-gradient-to-b from-ouro via-amarelo to-amarelo text-transparent bg-clip-text" style={{height: '65px', paddingLeft: "2rem", marginTop: "10px" }}>Ranking</h1>
             {displayEquipes.map((equipe, index) => {
                 return (
                     <PointBar key={index} equipe={equipe} topScores={topScores} />
