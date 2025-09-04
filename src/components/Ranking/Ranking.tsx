@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link';
 
 export interface Equipe {
     nome: string,
@@ -136,8 +137,26 @@ const Ranking: React.FC<RankingProps> = ({ equipes, displayQuantity = -1 }) => {
                     <PointBar key={index} equipe={equipe} topScores={topScores} />
                 );
             })}
+            {btnRankingCompleto(displayQuantity)}
         </section>  
     );
 };
+
+const btnRankingCompleto = (displayQuantity:number) => {
+    if(displayQuantity != -1){
+        return(
+            <div className="flex justify-center mt-14">
+                <button className="bg-azulelegante p-4 rounded-full">
+                    <Link className="flex items-center" href="/RankingeGrupos">
+                        <img className="w-7 mr-3" src="./ranking/foguete.png"></img>
+                        <p className="text-md">Ranking Completo</p>
+                    </Link>
+                </button>
+            </div>
+        );
+    }
+
+    return null;
+}
 
 export default Ranking;

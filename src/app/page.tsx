@@ -10,7 +10,7 @@ export default function Home() {
     <div className="page">
       <Header />
           <Organizadores></Organizadores>
-	        <Ranking equipes={e}></Ranking>
+	        <Ranking equipes={e} displayQuantity={4}></Ranking>
 	    <Footer />
     </div>
   );
