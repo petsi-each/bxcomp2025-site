@@ -17,9 +17,9 @@ export default function Regulamento(){
         <Header />
         <main className='mt-16 text-center'>
             
-            <h1 className='text-ouro text-6xl py-12'>Regulamento 2025</h1>
+            <h1 className='text-ouro font-eloquent text-6xl py-12'>Regulamento 2025</h1>
 
-            <p className=''><b>Última atualização em:</b> {latestDate.toLocaleDateString('pt-BR')}</p>
+            <p className='font-times text-2xl'><b>Última atualização em:</b> {latestDate.toLocaleDateString('pt-BR')}</p>
 
             <div className="w-full flex items-center justify-center px-4">
             <iframe
@@ -29,7 +29,7 @@ export default function Regulamento(){
             >
             </iframe>
             </div>
-            <ul className={`flex flex-col items-center`}>
+            <ul className={`font-times text-2xl flex flex-col items-center`}>
                 {
                     regulamento.modificacoes.map((modificacao, idx) => {
                         return <li key={idx}><b>{modificacao.tipo}</b> em: {modificacao.data}</li>
