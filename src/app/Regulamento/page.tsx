@@ -17,11 +17,11 @@ export default function Regulamento(){
         <Header />
         <main className='mt-16 text-center'>
             
-            <h1 className='text-ouro font-eloquent text-6xl py-12'>Regulamento 2025</h1>
+            <h1 className='text-ouro font-eloquent text-3xl md:text-5xl px-2 py-12'>Regulamento 2025</h1>
 
-            <p className='font-times text-2xl'><b>Última atualização em:</b> {latestDate.toLocaleDateString('pt-BR')}</p>
+            <p className='font-times text-xl md:text-2xl'><b>Última atualização em:</b> {latestDate.toLocaleDateString('pt-BR')}</p>
 
-            <div className="w-full flex items-center justify-center px-4">
+            <div className="w-full flex items-center justify-center px-8">
             <iframe
                 src={regulamento.arquivo}
                 title="Regulamento"
