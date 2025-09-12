@@ -4,7 +4,7 @@
         "estaLiberada": true,
         "tema": "Idade da Pedra",
         "descricao": "A coruja (do primeiro projeto do PET) foi raptada por um T-REX!!! &#x1F631; Com o espírito curioso herdado pelas bravas corujas do PET, descubra o fogo e salve a corujita nessa jornada pré-histórica! Prepare-se para explorar a Idade da Pedra e enfrentar desafios jurássicos!",
-        "iconPath": "/etapas/imagens/svgComponents/idadeDaPedraIcon.tsx",
+        "iconName": "idadeDaPedraIcon.tsx",
         "desafios": [
             {
                 "desafio": "Desejo não ser idiota - 2 pontos",
@@ -40,10 +40,10 @@
     },
     {
         "etapaIndice": 1,
-        "estaLiberada": false,
+        "estaLiberada": true,
         "tema": "Antigo Egito",
         "descricao": "A coruja (do primeiro projeto do PET) foi raptada por um T-REX!!! &#x1F631; Com o espírito curioso herdado pelas bravas corujas do PET, descubra o fogo e salve a corujita nessa jornada pré-histórica! Prepare-se para explorar a Idade da Pedra e enfrentar desafios jurássicos!",
-        "iconPath": "/etapas/imagens/svgComponents/antigoEgitoIcon.tsx",
+        "iconName": "antigoEgitoIcon.tsx",
         "desafios": [
             {
                 "desafio": "Fuga dos Linux - 6 pontos",
@@ -79,10 +79,10 @@
     },
     {
         "etapaIndice": 2,
-        "estaLiberada": false,
+        "estaLiberada": true,
         "tema": "Futuro Digital",
         "descricao": "A coruja (do primeiro projeto do PET) foi raptada por um T-REX!!! &#x1F631; Com o espírito curioso herdado pelas bravas corujas do PET, descubra o fogo e salve a corujita nessa jornada pré-histórica! Prepare-se para explorar a Idade da Pedra e enfrentar desafios jurássicos!",
-        "iconPath": "/etapas/imagens/svgComponents/futuroDigitalIcon.tsx",
+        "iconName": "futuroDigitalIcon.tsx",
         "desafios": [
             {
                 "desafio": "MANHÊ!!! - 4 pontos",
@@ -118,10 +118,10 @@
     },
     {
         "etapaIndice": 3,
-        "estaLiberada": false,
+        "estaLiberada": true,
         "tema": "Dimensão Intergaláctica",
         "descricao": "A coruja (do primeiro projeto do PET) foi raptada por um T-REX!!! &#x1F631; Com o espírito curioso herdado pelas bravas corujas do PET, descubra o fogo e salve a corujita nessa jornada pré-histórica! Prepare-se para explorar a Idade da Pedra e enfrentar desafios jurássicos!",
-        "iconPath": "/etapas/imagens/svgComponents/dimensaoIntergalacticaIcon.tsx",
+        "iconName": "dimensaoIntergalacticaIcon.tsx",
         "desafios": [
             {
                 "desafio": "Tá com você Puro Osso - 6 pontos",
@@ -157,10 +157,10 @@
     },
     {
         "etapaIndice": 4,
-        "estaLiberada": false,
+        "estaLiberada": true,
         "tema": "ApocaPET",
         "descricao": "A coruja (do primeiro projeto do PET) foi raptada por um T-REX!!! &#x1F631; Com o espírito curioso herdado pelas bravas corujas do PET, descubra o fogo e salve a corujita nessa jornada pré-histórica! Prepare-se para explorar a Idade da Pedra e enfrentar desafios jurássicos!",
-        "iconPath": "/etapas/imagens/svgComponents/apocaPETIcon.tsx",
+        "iconName": "apocaPETIcon.tsx",
         "desafios": [
             {
                 "desafio": "O Frango tá voando - 4 pontos",

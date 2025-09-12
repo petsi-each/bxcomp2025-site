@@ -20,7 +20,7 @@ const BarraBotoes: React.FC<BarraProps> = ({etapas, idSelecionado, setIdSelecion
     }
 
     return (
-            <section className="flex flex-row justify-between">
+            <section className="flex w-full flex-row justify-between">
                 { 
                     etapas.map((etapa, idx) => {
                         return <BotaoEtapa 

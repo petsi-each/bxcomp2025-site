@@ -7,11 +7,15 @@ export interface Desafio{
     casosTeste: string
 }
 
+export interface DesafioList{
+    desafios: Desafio[];
+}
+
 export interface Etapa {
     etapaIndice: number;
     estaLiberada: boolean;
     tema: string;
     descricao: string;
-    iconPath: string;
+    iconName: string;
     desafios: Desafio[];
 }
