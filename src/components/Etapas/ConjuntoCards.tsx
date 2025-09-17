@@ -15,7 +15,7 @@ const ConjuntoCards: React.FC<CabecalhoEtapaProps> = ({etapas, idSelecionado}) =
 
     return (
         <main>
-            <div className="flex items-center flex-col mt-[50px]">
+            <div className="flex items-center flex-col mt-[50px] mb-[30px]">
                 <section id="scrollDestiny" className="pt-5"> 
                     {
                         idSelecionado != -1 && ( //garantindo que os CardDesafios só serão chamados caso haja um valor válido em 'indice', evitando tentativas de acesso à posições não existentes no arranjo de etapas
