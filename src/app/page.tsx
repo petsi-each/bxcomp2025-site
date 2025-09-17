@@ -10,7 +10,7 @@ import EtapasSection from '@/components/Etapas/EtapasSection';
 
 export default function Home() {
   return (
-    <div className="page">
+    <div className="page w-full">
       <Header />
           <MainTitle></MainTitle>
           <EtapasSection></EtapasSection>
