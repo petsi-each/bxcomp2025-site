@@ -7,7 +7,7 @@ interface iconProps {
 
 const apocaPETIcon = (props: iconProps) => {
     return (
-        <svg viewBox="10.4751 0.7592 54.57 74.48" className={`h-full transition duration-300 hover:fill-ouro ${props.selecionado ? 'fill-ouro' : 'fill-marrom'}`} preserveAspectRatio="xMidYMid">
+        <svg viewBox="10.4751 0.7592 54.57 74.48" className={`h-[inherit] w-[inherit] transition duration-300 hover:fill-ouro ${props.selecionado ? 'fill-ouro' : 'fill-marrom'}`} preserveAspectRatio="xMidYMid">
                 <g clipPath="url(#clip0_3254_613)">
                     <path d="M14.3267 43.756H16.5012L18.404 42.3964L17.3183 41.0367L14.3267 43.756Z"></path>
                     <path d="M36.7716 33.4517H37.4507L38.4029 30.5958L34.5956 29.916L35.2762 30.5958V32.4995L36.7716 33.4517Z"></path>

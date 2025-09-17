@@ -29,8 +29,8 @@ export default function BotaoEtapa(props: BotaoEtapaProps){
 
     return(
         
-        <button aria-label={`mostrar etapa ${props.etapa.etapaIndice}`} disabled={props.etapa.estaLiberada == false} onClick={props.onClick} className={`flex flex-col items-center justify-center w-20 2xl:w-28 py-2 h-24 2xl:h-32 my-2  ${props.selecionado ? 'bg-laranjaBX' : 'opacity-50 bg-brancoBX hover:opacity-100'}`}>
-            <div className="relative h-12 w-[50px] md:w-20 2xl:w-28 md:h-24 2xl:h-32">
+        <button aria-label={`mostrar etapa ${props.etapa.etapaIndice}`} disabled={props.etapa.estaLiberada == false} onClick={props.onClick} className={`flex flex-col items-center justify-end py-2 my-2`}>
+            <div className={`flex flex-col items-center h-[35px] w-[35px] md:h-[4vw] md:w-[4vw] ${props.selecionado ? "scale-125" : "scale-100 opacity-50 hover:opacity-100"}`}>
                 {
                     props.etapa.estaLiberada == false ?
                         <QuestionMark />
@@ -39,9 +39,7 @@ export default function BotaoEtapa(props: BotaoEtapaProps){
                             etapa={props.etapa}
                             selecionado={props.selecionado}
                         />
-
                 }
-                
             </div>
         </button>
 

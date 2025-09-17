@@ -10,11 +10,10 @@ const CabecalhoEtapa: React.FC<CabecalhoEtapaProps> = ({etapas, idSelecionado}) 
     return (
 
         <div id="Cabecalho" className="block">
-            <h2 className="inline  text-creme text-[26px] md:text-[2rem] font-roboto font-[700]">
+            <h2 className="text-creme text-[25px] font-roboto font-[600] mb-[22px]">
                 &#x1FAA8; Etapa {etapas[idSelecionado].etapaIndice} - {etapas[idSelecionado].tema}
             </h2>
-            <br />
-            <p className="inline-block text-creme text-[17px] md:text-[1.25rem] font-roboto font-[700]">
+            <p className="inline-block text-creme text-[1.00rem] md:text-[1.10rem] font-roboto md:w-[52vw]">
                 {etapas[idSelecionado].descricao}
             </p>
         </div>

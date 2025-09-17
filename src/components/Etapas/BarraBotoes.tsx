@@ -13,22 +13,23 @@ interface BarraProps {
 const BarraBotoes: React.FC<BarraProps> = ({etapas, idSelecionado, setIdSelecionado}) => {
     
     const scrolltodisplayer = () => {
-        const displayer = document.getElementById('display');
-        if (displayer && window.innerWidth < 768) {
-            displayer.scrollIntoView({behavior:'smooth', block: 'start',});
-        }
+        // const displayer = document.getElementById('display');
+        // if (displayer && window.innerWidth < 768) {
+        //     displayer.scrollIntoView({behavior:'smooth', block: 'start',});
+        // }
     }
 
     return (
             <section className="flex w-full flex-row justify-between">
                 { 
                     etapas.map((etapa, idx) => {
-                        return <BotaoEtapa 
+                        return (
+                            <BotaoEtapa 
                                     key={idx} 
                                     etapa={etapa} 
                                     selecionado={idSelecionado==idx} 
-                                    onClick={()=> {setIdSelecionado(idx); scrolltodisplayer();}} 
-                                />  
+                                    onClick={()=> {setIdSelecionado(idx); scrolltodisplayer();}}>
+                            </BotaoEtapa>);
                     })
                 }
             </section>
