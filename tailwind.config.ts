@@ -27,7 +27,8 @@ const config: Config = {
         times: ['"Times New Roman"', 'Times', 'serif'],
         cinzel_decorative: ['Cinzel Decorative', 'serif'],
         poppins: ['Poppins', 'serif'],
-        roboto: ['Roboto', 'serif']
+        roboto: ['Roboto', 'serif'],
+        cinzel: ['Cinzel Decorative', 'serif']
       }
     },
   },
