@@ -130,7 +130,7 @@ const Ranking: React.FC<RankingProps> = ({ equipes, displayQuantity = -1 }) => {
     const displayEquipes = displayQuantity < 0 ? sortedEquipes : sortedEquipes.slice(0, displayQuantity) // Apresenta displayQuantity itens do array caso um valor seja determinado
 
     return (
-        <section className="grid grid-rows-1 gap-8 md:gap-2 px-7 md:px-20" style={{marginTop: "75px", marginBottom: "30px"}}>
+        <section className="grid grid-rows-1 gap-8 md:gap-2 pl-7 md:pl-20" style={{marginTop: "75px", marginBottom: "30px"}}>
             <h1 className="text-[4rem] font-[600] font-cinzel bg-gradient-to-b from-ouro via-amarelo to-amarelo text-transparent bg-clip-text" style={{marginTop: "10px" }}>Ranking</h1>
             {displayEquipes.map((equipe, index) => {
                 return (
