@@ -1,6 +1,7 @@
 @import url(https://db.onlinewebfonts.com/c/8bdf9153512e81954b0d2b7167eab648?family=EloquentJFRegularPro);
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url(https://db.onlinewebfonts.com/c/0033a2fbc0329740fb86c1cfd134cb94?family=Roboto);
+@import url(https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
 
 @tailwind base;
 @tailwind components;
@@ -16,6 +17,7 @@
   --amarelo: #FFC66B;
   --laranja: #F3B653;
   --marrom: #804A28;
+  --marromsuave: #A6592D;
   --preto: #000000;
 }
 

@@ -1,176 +1,175 @@
 [
     {
-      "nome": "Anonimious",
+      "nome": ":(){:|:&};:",
       "membros": [
-        "Davi Santos Fernandes",
-        "DHENER ALVES BENTO DA SILVA",
-        "Caio Augusto de Freitas Brito",
-        "Gabriel Trigueiro de Melo"
-      ],
-      "pontos": [ 0, 8, 12, 0, 8 ],
-      "iconPath": "/equipes/anonimious.png"
-    },
-    {
-      "nome": "Caxaxeiros Viajantes",
-      "membros": [
-        "Camila Alves Teixeira da Silva",
-        "Eric Isin Wang Chou",
-        "Marianna Saltarelli Arvellos Pontes",
-        "Davi Oliveira Medina"
-      ],
-      "pontos": [ 0, 7, 15, 2, 9 ],
-      "iconPath": "/equipes/caxaxeiros-viajantes.png"
-    },
-    {
-      "nome": "Os pipoqueiros",
-      "membros": [
-        "João de Melo Fantini",
-        "Higor Ranel Viani Lopes",
-        "Bruno Hideo Ioneda",
-        "Guilherme Samuel Lemos Segura"
-      ],
-      "pontos": [ 0, 5, 8, 0, 6 ],
-      "iconPath": "/equipes/os-pipoqueiros.png"
-    },
-    {
-      "nome": "cptEmos",
-      "membros": [
-        "Gabriel Luís da Silva",
-        "Alan Moura Silva",
-        "isabella cremonezi morija",
-        "Felipe Ferreira de Souza"
-      ],
-      "pontos": [ 0, 9, 15, 2, 0 ],
-      "iconPath": "/equipes/cptemos.png"
-    },
-    {
-      "nome": "Flezus",
-      "membros": [
-        "Felipe da Silva Serralheiro Gigante",
-        "Maysa Hellen Sacht Aragão",
-        "Yasmin Oliveira da Silva",
-        "Gustavo dos Santos Silva"
+        "Jaime Cavalcanti Guedes",
+        "Enzo Brilhante Mattos",
+        "Rafael Pioto Gomes",
+        "Thiago de Salvo Castro Alves"
       ],
       "pontos": [ 0, 0, 0, 0, 0 ],
-      "iconPath": "/equipes/flezus.png"
+      "iconPath": "/equipes/forkbomb.png"
     },
     {
-      "nome": "GELADEIRA ELECTROLUX DFX41 FROST FREE COM TURBO",
+      "nome": "Se fosse Python compilava",
       "membros": [
-        "Bruno Rangel Pereira Tadim",
-        "Higor Gabriel de Freitas",
-        "Hugo Cardoso Ferreira de Araújo",
-        "Victor Yodono"
+        "Raphael Augusto de Lima Alves",
+        "Igor Nascimento Silva",
+        "Antonio Pedro Costa Oliveira Pretti Espindula",
+        "Felipe Yuji Okokama"
       ],
-      "pontos": [ 0, 7, 8, 3, 8 ],
-      "iconPath": "/equipes/geladeira.png"
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/sefossepython.png"
     },
     {
-      "nome": "BRAT",
+      "nome": "Urubu Punga",
       "membros": [
-        "Flavio Augusto Faustino de Carvalho",
-        "Leonardo de Cico Bonani",
-        "Rafael tolentino limberte",
-        "Gilberto Serafim Dias de Araújo"
+        "Vinicios Conceição",
+        "Andrew Luigi Ferreira Lima",
+        "João Pedro Becer da Cunha",
+        "Pedro Paulo Andrade Oliveira"
       ],
-      "pontos": [ 0, 2, 5, 0, 0 ],
-      "iconPath": "/equipes/brat.png"
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/urubupunga.png"
     },
     {
-      "nome": "Patolinux: Quac-Quac",
+      "nome": "TROPA DE ELSE IF",
       "membros": [
-        "Thales Kauan Paiva de Oliveira",
-        "Dario Santos Cunha",
-        "Luís Guilherme Hitoshi Kanazawa",
-        "Rayssa Buarque Malheiros"
+        "Douglas Macedo Oliveira",
+        "Caique Costa Frias",
+        "Caique Sidrão Siqueira Barbosa",
+        "Filipi Gonçalves Rios"
       ],
-      "pontos": [ 0, 2, 5, 2 , 0],
-      "iconPath": "/equipes/patolinux.png"
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/elseif.png"
     },
     {
-      "nome": "Pandeirinho",
+      "nome": "return divas;",
       "membros": [
-        "Henrique Lam Ka Shing Chen",
-        "Guilherme Ivo Bozi",
-        "Letícia Namie Ono Honda",
-        "Luísa Karen Yanai"
+        "Mariana Medeiros Santos",
+        "Manuela Campos de Amorim",
+        "Mikelly Dantas Reis",
+        "Sabrina Cristan"
       ],
-      "pontos": [ 0, 14, 5, 2, 9 ],
-      "iconPath": "/equipes/pandeirinho.png"
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/returndivas.png"
     },
     {
-      "nome": "Português Desestruturado",
+      "nome": "Os Bugados",
       "membros": [
-        "Caio Vinícius Cunha Bernardo",
-        "Lucas Neves Souza",
-        "João Gabriel Bruni Santeiro"
+        "Pedro Botelho Gondim Dantas",
+        "Marcos Gabriel Chagas Rodrigues",
+        "Maria Carolina Soares Costa"
       ],
-      "pontos": [ 0, 15, 20, 5, 20 ],
-      "iconPath": "/equipes/portugues-desestruturado.png"
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/osbugados.png"
     },
     {
-      "nome": "Cobras Caubóis Tomadoras de Suco (CCTS)",
+      "nome": "Look What You Made Us Code",
       "membros": [
-        "Lucas Giovani Santos Ross",
-        "Vinicius Chirnev Panhoca",
-        "Tiago Silveira Almeida",
-        "Gustavo Santos El Dib"
+        "Ana Beatriz Fernandes Alves",
+        "Arthur Brandão da Mata",
+        "Caio Gaspar Paula",
+        "Marco Lima Maia"
       ],
-      "pontos": [ 0, 0, 2, 0, 2 ],
-      "iconPath": "/equipes/cobras-caubois-tomadoras-de-suco.png"
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/lookwhatyoumadeuscode.png"
     },
     {
-      "nome": "CompilouRodou",
+      "nome": "Jaguatiricas Emo",
       "membros": [
-        "Guilherme Hiyuki Maruta",
-        "Luiz Souza Neto",
-        "Luiz Vicente Neto",
-        "Renan Biruel Uema"
+        "Adan Lucas Guinatto Cunha",
+        "Kauã Amaral Moreno",
+        "Guilherme Delbon Souza",
+        "Kaua Ryu Nichioka Egami"
       ],
-      "pontos": [ 0, 2, 5, 2, 4 ],
-      "iconPath": "/equipes/compilou-rodou.png"
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/jaguatiricasemo.png"
     },
     {
-      "nome": "medo do panelas",
+      "nome": "Garfo na Caveira",
       "membros": [
-        "0100010101100100011101010110000101110010011001000110111100100000010000010111001001100001011101010110101001101111",
-        "Yuri Van Steen",
-        "Tae jin chun",
-        "Gabriel Castellar"
+        "Rafael de Santana Lima",
+        "Raul Brasil de Sousa",
+        "Lucas Stefenoni Ramos",
+        "Giovane Giroldo da Silva"
       ],
-      "pontos": [ 0, 3, 8, 0, 9 ],
-      "iconPath": "/equipes/medo-do-panelas.png"
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/garfonacaveira.png"
     },
     {
-      "nome": "O ROCK NÃO É BRINCADEIRA",
+      "nome": "Duck Coders",
       "membros": [
-        "Dérick dos Santos Arriado",
-        "Júlio Arroio Silva",
-        "Carlos Henrique Camillo da Silva",
-        "Alisson Santos Silva"
+        "Rafaela Milantoni Santiago",
+        "Letícia Sati Matsuoka Tonaki",
+        "Samira Messias Lins",
+		"Caroline Aparecida Oliveira Santiago"
       ],
-      "pontos": [ 0, 8, 15, 0, 4 ],
-      "iconPath": "/equipes/o-rock-nao-e-brincadeira.png"
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/duckcoders.png"
     },
     {
-      "nome": "Trivial",
+      "nome": "Discípulos do Helton",
       "membros": [
-        "Enrico Lechar de Barros Aranha",
-        "Clara Pires Campardo",
-        "Renan Rodrigues Moreira",
-        "João Henrique Kuroki Cominato"
+        "João Pedro Costa Santos",
+        "Pedro Gabriel Valente da Silva Oliveira",
+        "Thainá Ferreira da Silva",
+        "Mateus Nunes Pereira"
       ],
-      "pontos": [ 0, 0, 6, 0 , 2],
-      "iconPath": "/equipes/trivial.png"
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/discipulosdohelton.png"
     },
     {
-      "nome": "moondevs",
+      "nome": "cavalos_de_trojan",
       "membros": [
-        "Ana Luisa Oliveira da Silva",
-        "Alexsandro de Souza Campos",
-        "Thales Iamamura"
+        "Ayla dos Santos da Costa",
+        "Beatriz dos Santos Bento",
+        "Fernanda Yumi Taira",
+        "Guilherme Sacarrão Bastos"
       ],
-      "pontos": [ 0, 3, 5, 0, 0 ],
-      "iconPath": "/equipes/moondevs.png"
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/cavalos_de_trojan.png"
+    },
+    {
+      "nome": "Aura Team",
+      "membros": [
+        "Gabriel Coutinho Cezar",
+        "Higor Mauricio da Silva",
+        "Fernando Silva Barreto Filho",
+        "Artur Rossoni Baraldi"
+      ],
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/aurateam.png"
+    },
+    {
+      "nome": "ACCN",
+      "membros": [
+        "Alexandre Paulo Power dos Santos",
+        "Nicolas Fagundes Justi Muniz",
+        "Cristian de Lima Meira",
+        "Carlos Vitor de Lima Pinto"
+      ],
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/ACCN.png"
+    },
+    {
+      "nome": "A Ordem do Ponteiro",
+      "membros": [
+        "Luiz Eduardo da Silva",
+        "Nicholas Kim",
+        "Jeffrey Zhang"
+      ],
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/aordemdoponteiro.png"
+    },
+    {
+      "nome": "2001: Uma Odisseia no Malloc",
+      "membros": [
+        "Guilherme de Carvalho Gois",
+        "Gustavo Henrique dos Santos",
+        "Lucas Henrique Alves Nunes Bitencourt"
+      ],
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/odisseianomalloc.png"
     }
 ]
