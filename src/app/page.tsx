@@ -9,11 +9,9 @@ import "./globals.css";
 export default function Home() {
   return (
     <div className="page">
-      <Header />
-		<MainTitle></MainTitle>
-          <Organizadores></Organizadores>
-	        <Ranking equipes={e} displayQuantity={4}></Ranking>
-	    <Footer />
+      <Header></Header>
+		    <MainTitle></MainTitle>
+	    <Footer></Footer>
     </div>
   );
 }
