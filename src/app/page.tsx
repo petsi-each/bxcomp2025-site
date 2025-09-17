@@ -1,3 +1,4 @@
+
 import Header from '../components/HeaderFooter/Header';
 import Footer from '../components/HeaderFooter/Footer';
 import Ranking from "../components/Ranking/Ranking"
@@ -10,6 +11,7 @@ export default function Home() {
     <div className="page">
       <Header />
           <Organizadores></Organizadores>
+          <EtapasSection></EtapasSection>
 	        <Ranking equipes={e} displayQuantity={4}></Ranking>
 	    <Footer />
     </div>
