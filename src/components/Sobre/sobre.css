@@ -1,0 +1,269 @@
+body{
+    background-color: #081826;
+}
+
+.o-que-e-o-bxcomp{
+    width: 85%;
+    
+    margin: auto;
+    
+
+    display: flex;                  /*Serve pra transformar em container flexivel pros filhos*/
+    /*align-items: center;*/        /*Alinha os filhos verticalmente*/  
+    justify-content: center;        /*Alinha os filhos horizontalmente*/
+    flex-direction: column;         /*Itens empilhados em coluna*/
+
+    margin-bottom: 10%;
+    padding-top: 6rem;
+}
+
+.o-que-e-o-bxcomp h1{
+    font-family: 'Elephant';
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 3.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #FFFCEA;
+
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.o-que-e-o-bxcomp .bxcomp{
+    font-family: 'Elephant';
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 3.3rem; 
+
+    color: #FFFCEA;
+
+    text-shadow: 0px 4px 20px rgba(255, 252, 234, 0.3);
+}
+
+.o-que-e-o-bxcomp p{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 1.5rem;
+
+    color: #FFC66B;
+}
+
+
+/*Usei o gpt pro botão pq achei difícil fazer sozinho*/
+
+.o-que-e-o-bxcomp button {
+    margin-top: 7%;
+    align-self: center;
+    width: 220px;
+    height: 65px;
+    padding: 15px;
+    /* width: clamp(200px, 90%, 300px); /*90% em telas pequenas para caber*/
+    /*height: clamp(60px, 8vw, 90px); */
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 0.5em; /*melhor usar em em/rem para consistência*/
+
+    background: linear-gradient(0deg, #43D3E6, #43D3E6);
+
+    border-radius: 20px;
+
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+.o-que-e-o-bxcomp button span {
+    font-family: 'Elephant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(16px, 3vw, 16px); /*texto também responsivo*/
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #081826;
+}
+
+.o-que-e-o-bxcomp button svg path {
+    fill: #081826;
+}
+
+.o-que-e-o-bxcomp button:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.conteudo{
+    width: 85%;
+    
+    margin: auto;
+    
+
+    display: flex;                      /*Serve pra transformar em container flexivel pros filhos*/
+    align-items: center;                /*Alinha os filhos verticalmente*/
+    justify-content: space-between;     
+    flex-direction: row;                /*Itens empilhados em linha*/
+
+    align-items: stretch;               /*faz os filhos terem a mesma altura*/
+}
+
+.imagem{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.objetivo .imagem img{
+    object-fit: contain;                         
+}
+
+.texto{
+    flex: 1;
+    padding:10px;
+}
+
+.objetivo h2{
+    font-family: 'Elephant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 82px;
+
+    color: #E6E4E0;
+
+    text-shadow: 0px 4px 20px rgba(255, 252, 234, 0.25);
+}
+
+.objetivo p{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(10px, 5vw, 23px);
+
+    color: #E6E4E0;
+}
+
+@media(max-width: 960px){
+    .objetivo .conteudo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* .objetivo .imagem img{
+        width: clamp(150px, 60vw, 400px);
+    } */
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+.organizacao .conteudo{
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+
+/* .organizacao .imagem img{
+    width: clamp(200px, 40vw, 500px);
+    height: auto;                           
+} */
+
+.organizacao h2{
+    font-family: 'Elephant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 82px;
+
+    color: #E6E4E0;
+
+    text-shadow: 0px 4px 20px rgba(255, 252, 234, 0.25);
+}
+
+.organizacao p{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(10px, 5vw, 23px);
+
+    color: #E6E4E0;
+}
+
+@media(max-width: 768px){
+    .organizacao .conteudo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .organizacao .imagem img{
+        width: clamp(150px, 60vw, 300px);
+    }
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+.outras-competicoes .conteudo{
+    margin-top: 20px;
+}
+
+/* .outras-competicoes .imagem img{
+    width: clamp(200px, 40vw, 500px);
+    height: auto;                          
+} */
+
+.outras-competicoes h2{
+    font-family: 'Elephant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 82px;
+
+    color: #E6E4E0;
+
+    text-shadow: 0px 4px 20px rgba(255, 252, 234, 0.25);
+}
+
+.outras-competicoes ul{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(10px, 5vw, 23px);
+
+    color: #E6E4E0;
+}
+
+.outras-competicoes a{
+    color: #FFC66B
+}
+
+@media(max-width: 768px){
+    .outras-competicoes .conteudo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .outras-competicoes .imagem img{
+        width: clamp(150px, 60vw, 300px);
+    }
+}
