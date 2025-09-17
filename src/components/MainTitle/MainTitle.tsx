@@ -13,7 +13,7 @@ const MainTitle = () => {
           {/* Seção de Texto */}
           <div className="w-full md:w-1/2 text-center md:text-left flex flex-col justify-between">
             <div>
-              <h1 className="md:text-[4.5rem] text-[3.5rem] font-eloquent text-[--azulciano] pb-6" style={{lineHeight: 1.3}}>
+              <h1 className="md:text-[4.5rem] text-[3rem] font-eloquent text-[--azulciano] pb-6" style={{lineHeight: 1.3}}>
                 O que é o BXCOMP?
               </h1>
 
