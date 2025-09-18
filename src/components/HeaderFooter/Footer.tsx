@@ -7,13 +7,14 @@ const Footer = () => {
             <svg 
                 viewBox="0 0 1440 320" 
                 className="absolute w-full md:h-80 h-[505px] -mb-1 fill-creme" 
-                preserveAspectRatio="none"
+                preserveAspectRatio="xMidYMid slice"
             >
                 <path 
                     fillOpacity="1" 
                     d="M0,128L48,138.7C96,149,192,171,288,176C384,181,480,171,576,149.3C672,128,768,96,864,96C960,96,1056,128,1152,138.7C1248,149,1344,139,1392,133.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
                 ></path>
             </svg>
+            {/* <div className=""></div> */}
             
             {/* Conteúdo do footer posicionado sobre a onda */}
             <div className="relative left-0 md:top-[200px] top-[320px] w-full flex justify-center items-end">

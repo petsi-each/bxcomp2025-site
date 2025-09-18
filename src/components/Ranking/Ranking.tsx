@@ -67,12 +67,12 @@ const PointBar: React.FC<PointBarProps> = ({ equipe, topScores }) => {
     // const minNameWidth = 150; // pixel size
 
     return (
-        <article className="-z-10 text-white">
+        <article className="-z-10 pt-[15px] text-white">
 
             {/* Descrição da equipe no mobile */}
             <div className="md:hidden w-screen px-8 mb-4">
                 <h2 className="[@media(min-width:900px)]:text-2xl text-xl relative z-10 truncate">{equipe.nome}</h2>
-                <p className="text-md font-bold">{totalPontos} pontos</p>
+                <p className="text-md font-bold">{Math.floor(totalPontos)} pontos</p>
             </div>
 
             <div className="w-full px-8 mb-6 md:mb-0 flex items-center">
@@ -94,7 +94,7 @@ const PointBar: React.FC<PointBarProps> = ({ equipe, topScores }) => {
             </div>
                 <div style={{ width: remainingNameWidth }} className="min-w-24 lg:min-w-48 px-4 hidden md:block"> 
                     <h2 className="text-xl w-full truncate">{equipe.nome}</h2>
-                    <p className="text-sm font-bold w-full">{totalPontos} pontos</p>
+                    <p className="text-sm font-bold w-full">{Math.floor(totalPontos)} pontos</p>
                 </div>
             </div>
 
@@ -130,7 +130,7 @@ const Ranking: React.FC<RankingProps> = ({ equipes, displayQuantity = -1 }) => {
     const displayEquipes = displayQuantity < 0 ? sortedEquipes : sortedEquipes.slice(0, displayQuantity) // Apresenta displayQuantity itens do array caso um valor seja determinado
 
     return (
-        <section className="grid grid-rows-1 gap-8 md:gap-2 md:pl-20" style={{marginTop: "75px", marginBottom: "30px"}}>
+        <section className="grid grid-rows-1 gap-8 md:gap-2 md:pl-20" style={{marginTop: "90px", marginBottom: "30px"}}>
             <h1 className="text-[3.2rem] w-fit font-[600] pl-7 md:pl-0 font-cinzel bg-gradient-to-b from-ouro via-amarelo to-amarelo text-transparent bg-clip-text" style={{marginTop: "10px" }}>Ranking</h1>
             {displayEquipes.map((equipe, index) => {
                 return (

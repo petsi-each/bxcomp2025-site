@@ -6,7 +6,7 @@ const MainTitle = () => {
       <div className="w-full flex flex-col justify-center flex-wrap items-center">
         
         <img className="w-[220px] [@media(min-width:650px)]:w-[30vw]" src="./images/LogoBX.png" alt="Logo BXCOMP" />
-        <img className="w-[340px] [@media(min-width:650px)]:w-[50vw] top-[-5px] md:top-[-25px] relative" src="./images/GalaxyOwls.png" alt="Galaxy Owls" />
+        <img className="w-[340px] [@media(min-width:650px)]:w-[50vw] top-[-5px] md:top-[-25px] relative mb-[-27px]" src="./images/GalaxyOwls.png" alt="Galaxy Owls" />
         
         <div className="flex flex-col md:flex-row items-start justify-between w-full md:gap-8">
           
