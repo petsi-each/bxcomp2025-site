@@ -131,7 +131,7 @@ const Ranking: React.FC<RankingProps> = ({ equipes, displayQuantity = -1 }) => {
 
     return (
         <section className="grid grid-rows-1 gap-8 md:gap-2 md:pl-20" style={{marginTop: "75px", marginBottom: "30px"}}>
-            <h1 className="text-[3.2rem] w-fit font-[600] pl-7 font-cinzel bg-gradient-to-b from-ouro via-amarelo to-amarelo text-transparent bg-clip-text" style={{marginTop: "10px" }}>Ranking</h1>
+            <h1 className="text-[3.2rem] w-fit font-[600] pl-7 md:pl-0 font-cinzel bg-gradient-to-b from-ouro via-amarelo to-amarelo text-transparent bg-clip-text" style={{marginTop: "10px" }}>Ranking</h1>
             {displayEquipes.map((equipe, index) => {
                 return (
                     <PointBar key={index} equipe={equipe} topScores={topScores} />

@@ -17,7 +17,7 @@ export default function Regulamento(){
         <Header />
         <main className='mt-16 text-center'>
             
-            <h1 className='text-ouro font-eloquent text-3xl md:text-5xl px-2 py-12'>Regulamento 2025</h1>
+            <h1 className='bg-gradient-to-b from-ouro via-amarelo to-amarelo text-transparent bg-clip-text font-eloquent text-3xl md:text-5xl px-2 py-12'>Regulamento 2025</h1>
 
             <p className='font-times text-xl md:text-2xl'><b>Última atualização em:</b> {latestDate.toLocaleDateString('pt-BR')}</p>
 
