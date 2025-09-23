@@ -4,7 +4,8 @@ export interface Desafio{
     desafio: string,
     enunciado: string,
     resolucao: string,
-    casosTeste: string
+    entrada: string,
+    saida: string,
 }
 
 export interface DesafioList{

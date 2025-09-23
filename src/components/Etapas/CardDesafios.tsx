@@ -12,7 +12,8 @@ export default function CardDesafios(props: DesafioList) {
                             <h2 className="text-2xl font-eloquent text-azulelegante">{desafioObj.desafio}</h2>
                             <p className={`flex items-center flex-col font-poppins text-base `}>
                                 <a href={desafioObj.enunciado} target="_blank" className="mb-[5px] mt-[5px] text-lg font-roboto font-bold text-marrom w-fit hover:transition-all hover:duration-100 hover:scale-[1.13] hover:font-bold hover:text-white">Enunciado</a>
-                                <a href={desafioObj.casosTeste} target="_blank" className="mb-[5px] text-lg text-azulelegante w-fit hover:transition-all hover:duration-100 hover:scale-[1.13] hover:font-bold hover:text-white">Casos Teste</a>
+                                <a href={desafioObj.entrada} target="_blank" className="mb-[5px] text-lg text-azulelegante w-fit hover:transition-all hover:duration-100 hover:scale-[1.13] hover:font-bold hover:text-white">Entrada</a>
+                                <a href={desafioObj.saida} target="_blank" className="mb-[5px] text-lg text-azulelegante w-fit hover:transition-all hover:duration-100 hover:scale-[1.13] hover:font-bold hover:text-white">Saida</a>
                                 <a href={desafioObj.resolucao} target="_blank"  className="mb-[5px] text-lg text-azulelegante w-fit hover:transition-all hover:duration-100 hover:scale-[1.13] hover:font-bold hover:text-white">Exemplo de Gabarito</a>
                             </p>
                         </article>

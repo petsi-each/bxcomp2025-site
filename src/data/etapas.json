@@ -3,7 +3,8 @@
         "etapaIndice": 0,
         "estaLiberada": true,
         "tema": "Idade da Pedra",
-        "icon": "/etapas/imagens/png/idadeDaPedra.png",
+        "descricao": "A coruja do BXCOMP foi raptada por um T-REX!!!! Com o espírito curioso herdado pelas bravas corujas do PET, descubra o fogo e salve a corujita!",
+        "iconName": "idadeDaPedraIcon.tsx",
         "desafios": [
             {
                 "desafio": "Uga Buga! - 4 pontos",
@@ -46,7 +47,8 @@
         "etapaIndice": 1,
         "estaLiberada": true,
         "tema": "Antigo Egito",
-        "icon": "/etapas/imagens/png/antigoEgito.png",
+        "descricao": "A coruja do Grace foi confundida com a CLEOPATRA e agora cabe a vocês o seu resgate. Será necessário passar por labirintos, ler hieróglifos e sobreviver a grandes armadilhas.",
+        "iconName": "antigoEgitoIcon.tsx",
         "desafios": [
             {
                 "desafio": "Mensagem de César - 2 pontos",
@@ -89,7 +91,8 @@
         "etapaIndice": 2,
         "estaLiberada": true,
         "tema": "Futuro Digital",
-        "icon": "/etapas/imagens/png/futuroDigital.png",
+        "descricao": "Socorro! a coruja do Fala, Coruja! foi parar num futuro digital e transformada em uma espécie de locutora universal(???) apenas bixos de SI da EACH-USP poderão passar por sistemas tão avançados, salvem a voz do PET-SI!",
+        "iconName": "futuroDigitalIcon.tsx",
         "desafios": [
             {
                 "desafio": "Euclidea - 3 pontos",
@@ -132,7 +135,8 @@
         "etapaIndice": 3,
         "estaLiberada": false,
         "tema": "Dimensão Intergaláctica",
-        "icon": "/etapas/imagens/png/dimensaoIntergalatica.png",
+        "descricao": "Por algum motivo, as coruja de OWLBI e COMPETEC foram parar em uma dimensão alternativa intergalática, em que os Jogos Sagazes definem o grande campeão das galáxias. Vença os jogos e resgate as corujas. Seja campeão para salvar o Universo",
+        "iconName": "dimensaoIntergalacticaIcon.tsx",
         "desafios": [
             {
                 "desafio": "Briga Intergaláctica - 3 pontos",
@@ -175,7 +179,8 @@
         "etapaIndice": 4,
         "estaLiberada": false,
         "tema": "ApocaPET",
-        "icon": "/etapas/imagens/png/apocaPET.png",
+        "descricao": "Vocês acharam mesmo que resgataram todas as corujas? pois bem... se esqueceram do Coruja Informa! MAIS UMA VEZ, e agora o apocaPET está acontecendo, impeça a imperatriz ditadora que sequestrou a coruja do BXCOMP e encontre a coruja do Coruja Informa, assim, consertando esse futuro maluco em que o PET não tem salinha, as pessoas gostam de monstros ao invés de corujas e nada dá certo para os bixos de SI!",
+        "iconName": "apocaPETIcon.tsx",
         "desafios": [
             {
                 "desafio": "Socorro, a coruja tá cercada - X pontos",
