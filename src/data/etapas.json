@@ -3,38 +3,42 @@
         "etapaIndice": 0,
         "estaLiberada": true,
         "tema": "Idade da Pedra",
-        "descricao": "A coruja (do primeiro projeto do PET) foi raptada por um T-REX!!! &#x1F631; Com o espírito curioso herdado pelas bravas corujas do PET, descubra o fogo e salve a corujita nessa jornada pré-histórica! Prepare-se para explorar a Idade da Pedra e enfrentar desafios jurássicos!",
-        "iconName": "idadeDaPedraIcon.tsx",
+        "icon": "/etapas/imagens/png/idadeDaPedra.png",
         "desafios": [
             {
-                "desafio": "Desejo não ser idiota - 2 pontos",
-                "enunciado": "etapas/0/desejo-nao-ser-idiota/enunciado.pdf",
-                "resolucao": "etapas/0/desejo-nao-ser-idiota/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Uga Buga! - 4 pontos",
+                "enunciado": "etapas/0/uga-buga/",
+                "resolucao": "etapas/0/uga-buga/sol.c",
+                "entrada": "etapas/0/uga-buga/1.in",
+                "saida": "etapas/0/uga-buga/1.ans"
             },
             {
-                "desafio": "Os 4 elementos - 4 pontos",
-                "enunciado": "etapas/0/os-4-elementos/enunciado.pdf",
-                "resolucao": "etapas/0/os-4-elementos/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Pedra, Papiro, Tesoura - 3 pontos",
+                "enunciado": "etapas/0/pedra,papiro,tesoura/Pedra, Papiro, Tesoura.pdf",
+                "resolucao": "etapas/0/pedra,papiro,tesoura/sol.c",
+                "entrada": "etapas/0/pedra,papiro,tesoura/1.in",
+                "saida": "etapas/0/pedra,papiro,tesoura/1.ans"
             },
             {
-                "desafio": "ROUBO DO HAMBURGUER DE SIRI - 3 pontos",
-                "enunciado": "etapas/0/roubo-do-hamburguer-de-siri/enunciado.pdf",
-                "resolucao": "etapas/0/roubo-do-hamburguer-de-siri/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "FOGO - 4 pontos",
+                "enunciado": "etapas/0/fogo/FOGO.pdf",
+                "resolucao": "etapas/0/fogo/sol.c",
+                "entrada": "etapas/0/fogo/1.in",
+                "saida": "etapas/0/fogo/1.ans"
             },
             {
-                "desafio": "A porta espiritual - 3 pontos",
-                "enunciado": "etapas/0/a-porta-espiritual/enunciado.pdf",
-                "resolucao": "etapas/0/a-porta-espiritual/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Zona de Olfato - 2 pontos",
+                "enunciado": "etapas/0/zona-de-Olfato/zonadeolfato.pdf",
+                "resolucao": "etapas/0/zona-de-Olfato/sol.c",
+                "entrada": "etapas/0/zona-de-Olfato/1.in",
+                "saida": "etapas/0/zona-de-Olfato/1.ans"
             },
             {
-                "desafio": "Os robôs de Jimmy - 6 pontos",
-                "enunciado": "etapas/0/os-robos-de-jimmy/enunciado.pdf",
-                "resolucao": "etapas/0/os-robos-de-jimmy/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Era tudo…Bagre? - 6 pontos",
+                "enunciado": "etapas/0/era-tudo-Bagre/EraTudoBagre.pdf",
+                "resolucao": "etapas/0/era-tudo-Bagre/sol.c",
+                "entrada": "etapas/0/era-tudo-Bagre/1.in",
+                "saida": "etapas/0/era-tudo-Bagre/1.ans"
             }  
         ]
     },
@@ -42,38 +46,42 @@
         "etapaIndice": 1,
         "estaLiberada": true,
         "tema": "Antigo Egito",
-        "descricao": "A coruja (do primeiro projeto do PET) foi raptada por um T-REX!!! &#x1F631; Com o espírito curioso herdado pelas bravas corujas do PET, descubra o fogo e salve a corujita nessa jornada pré-histórica! Prepare-se para explorar a Idade da Pedra e enfrentar desafios jurássicos!",
-        "iconName": "antigoEgitoIcon.tsx",
+        "icon": "/etapas/imagens/png/antigoEgito.png",
         "desafios": [
             {
-                "desafio": "Fuga dos Linux - 6 pontos",
-                "enunciado": "etapas/1/fuga-dos-linux/enunciado.pdf",
-                "resolucao": "etapas/1/fuga-dos-linux/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Mensagem de César - 2 pontos",
+                "enunciado": "etapas/1/mensagem-de-cesar/mensagem_de_Cesar.pdf",
+                "resolucao": "etapas/1/mensagem-de-cesar/sol.c",
+                "entrada": "etapas/1/mensagem-de-cesar/1.in",
+                "saida": "etapas/1/mensagem-de-cesar/1.ans"
             },
             {
-                "desafio": "Perdidinhos no pagode - 3 pontos",
-                "enunciado": "etapas/1/perdidinhos-no-pagode/enunciado.pdf",
-                "resolucao": "etapas/1/perdidinhos-no-pagode/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Quanta Pedra, Rapaiz - 3 pontos",
+                "enunciado": "etapas/1/quanta-pedra-rapaiz/quanta_pedra_rapaiz.pdf",
+                "resolucao": "etapas/1/quanta-pedra-rapaiz/sol.c",
+                "entrada": "etapas/1/quanta-pedra-rapaiz/1.in",
+                "saida": "etapas/1/quanta-pedra-rapaiz/1.ans"
             },
             {
-                "desafio": "Equilíbrio das Galinhas - 4 pontos",
-                "enunciado": "etapas/1/equilibrio-das-galinhas/enunciado.pdf",
-                "resolucao": "etapas/1/equilibrio-das-galinhas/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "The Nile is a River - 6 pontos",
+                "enunciado": "etapas/1/the-nile-is-a-river/The Nile is a River.pdf",
+                "resolucao": "etapas/1/the-nile-is-a-river/sol.c",
+                "entrada": "etapas/1/the-nile-is-a-river/1.in",
+                "saida": "etapas/1/the-nile-is-a-river/1.ans"
             },
             {
-                "desafio": "Rinha de Dragões - 2 pontos",
-                "enunciado": "etapas/1/rinha-de-dragoes/enunciado.pdf",
-                "resolucao": "etapas/1/rinha-de-dragoes/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "A maldição do Faraó Míope - 3 pontos",
+                "enunciado": "etapas/1/a-maldicao-do-farao-miope/a_maldicao_do_faro_miope.pdf",
+                "resolucao": "etapas/1/a-maldicao-do-farao-miope/sol.c",
+                "entrada": "etapas/1/a-maldicao-do-farao-miope/1.in",
+                "saida": "etapas/1/a-maldicao-do-farao-miope/1.ans"
             },
             {
-                "desafio": "FAZ O URRO - 4 pontos",
-                "enunciado": "etapas/1/faz-o-urro/enunciado.pdf",
-                "resolucao": "etapas/1/faz-o-urro/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Equilíbrio da Pirâmide - 4 pontos",
+                "enunciado": "etapas/1/equilibrio-da-piramide/equilibrio_da_piramide.pdf",
+                "resolucao": "etapas/1/equilibrio-da-piramide/sol.c",
+                "entrada": "etapas/1/equilibrio-da-piramide/1.in",
+                "saida": "etapas/1/equilibrio-da-piramide/1.ans"
             }
         ]
     },
@@ -81,116 +89,128 @@
         "etapaIndice": 2,
         "estaLiberada": true,
         "tema": "Futuro Digital",
-        "descricao": "A coruja (do primeiro projeto do PET) foi raptada por um T-REX!!! &#x1F631; Com o espírito curioso herdado pelas bravas corujas do PET, descubra o fogo e salve a corujita nessa jornada pré-histórica! Prepare-se para explorar a Idade da Pedra e enfrentar desafios jurássicos!",
-        "iconName": "futuroDigitalIcon.tsx",
+        "icon": "/etapas/imagens/png/futuroDigital.png",
         "desafios": [
             {
-                "desafio": "MANHÊ!!! - 4 pontos",
-                "enunciado": "etapas/3/manhe/enunciado.pdf",
-                "resolucao": "etapas/3/manhe/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Euclidea - 3 pontos",
+                "enunciado": "etapas/2/euclidea/Euclidea.pdf",
+                "resolucao": "etapas/2/euclidea/sol.c",
+                "entrada": "etapas/2/euclidea/1.in",
+                "saida": "etapas/2/euclidea/1.ans"
             },
             {
-                "desafio": "Tá no taPETe! - 6 pontos",
-                "enunciado": "etapas/3/ta-no-tapete/enunciado.pdf",
-                "resolucao": "etapas/3/ta-no-tapete/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Metal Owl - 3 pontos",
+                "enunciado": "etapas/2/meta-owl/Meta Owl.pdf",
+                "resolucao": "etapas/2/meta-owl/sol.c",
+                "entrada": "etapas/2/meta-owl/1.in",
+                "saida": "etapas/2/meta-owl/1.ans"
             },
             {
-                "desafio": "Mente PETurbada - 4 pontos",
-                "enunciado": "etapas/3/mente-peturbada/enunciado.pdf",
-                "resolucao": "etapas/3/mente-peturbada/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Cybercoruja - 6 pontos",
+                "enunciado": "etapas/2/cybercoruja/cyberuja.pdf",
+                "resolucao": "etapas/2/cybercoruja/sol.c",
+                "entrada": "etapas/2/cybercoruja/1.in",
+                "saida": "etapas/2/cybercoruja/1.ans"
             },
             {
-                "desafio": "Estudo Estranho - 3 pontos",
-                "enunciado": "etapas/3/estudo-estranho/enunciado.pdf",
-                "resolucao": "etapas/3/estudo-estranho/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Corrupção Binária - 2 pontos",
+                "enunciado": "etapas/2/corrupcao-binaria/corrupcao-binaria.pdf",
+                "resolucao": "etapas/2/corrupcao-binaria/sol.c",
+                "entrada": "etapas/2/corrupcao-binaria/1.in",
+                "saida": "etapas/2/corrupcao-binaria/1.ans"
             },
             {
-                "desafio": "Livro de Feitiços da Star - 2 pontos",
-                "enunciado": "etapas/3/bingo-de-feiticos-da-star/enunciado.pdf",
-                "resolucao": "etapas/3/bingo-de-feiticos-da-star/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Um Canal Familiar - 4 pontos",
+                "enunciado": "etapas/2/um-canal-familiar/Um Canal Familiar.pdf",
+                "resolucao": "etapas/2/um-canal-familiar/sol.c",
+                "entrada": "etapas/2/um-canal-familiar/1.in",
+                "saida": "etapas/2/um-canal-familiar/1.ans"
             }
         ]
     },
     {
         "etapaIndice": 3,
-        "estaLiberada": true,
+        "estaLiberada": false,
         "tema": "Dimensão Intergaláctica",
-        "descricao": "A coruja (do primeiro projeto do PET) foi raptada por um T-REX!!! &#x1F631; Com o espírito curioso herdado pelas bravas corujas do PET, descubra o fogo e salve a corujita nessa jornada pré-histórica! Prepare-se para explorar a Idade da Pedra e enfrentar desafios jurássicos!",
-        "iconName": "dimensaoIntergalacticaIcon.tsx",
+        "icon": "/etapas/imagens/png/dimensaoIntergalatica.png",
         "desafios": [
             {
-                "desafio": "Tá com você Puro Osso - 6 pontos",
-                "enunciado": "etapas/2/ta-com-voce-puro-osso/enunciado.pdf",
-                "resolucao": "etapas/2/ta-com-voce-puro-osso/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Briga Intergaláctica - 3 pontos",
+                "enunciado": "etapas/3/briga-intergalatica/Acesso_Negado.pdf",
+                "resolucao": "etapas/3/briga-intergalatica/sol.c",
+                "entrada": "etapas/3/briga-intergalatica/1.in",
+                "saida": "etapas/3/briga-intergalatica/1.ans"
             },
             {
-                "desafio": "A bomba - 3 pontos",
-                "enunciado": "etapas/2/a-bomba/enunciado.pdf",
-                "resolucao": "etapas/2/a-bomba/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Disfarce Perfeito - 6 pontos",
+                "enunciado": "etapas/3/disfarce-perfeito/Briga Intergalática.pdf",
+                "resolucao": "etapas/3/disfarce-perfeito/sol.c",
+                "entrada": "etapas/3/disfarce-perfeito/1.in",
+                "saida": "etapas/3/disfarce-perfeito/1.ans"
             },
             {
-                "desafio": "Explodindo planetas - 2 pontos",
-                "enunciado": "etapas/2/explodindo-planetas/enunciado.pdf",
-                "resolucao": "etapas/2/explodindo-planetas/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Acesso Negado - 4 pontos",
+                "enunciado": "etapas/3/acesso-negado/Acesso_Negado.pdf",
+                "resolucao": "etapas/3/acesso-negado/sol.c",
+                "entrada": "etapas/3/acesso-negado/1.in",
+                "saida": "etapas/3/acesso-negado/1.ans"
             },
             {
-                "desafio": "Açúcar, tempero e ...? - 4 pontos",
-                "enunciado": "etapas/2/acucar-tempero/enunciado.pdf",
-                "resolucao": "etapas/2/acucar-tempero/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Portais da Loucura - 4 pontos",
+                "enunciado": "etapas/3/portais-da-loucura/Portais da Loucura.pdf",
+                "resolucao": "etapas/3/portais-da-loucura/sol.c",
+                "entrada": "etapas/3/portais-da-loucura/1.in",
+                "saida": "etapas/3/portais-da-loucura/1.ans"
             },
             {
-                "desafio": "Missão Palíndromo do Setor V - 3 pontos",
-                "enunciado": "etapas/2/missao-palindromo-do-setor-v/enunciado.pdf",
-                "resolucao": "etapas/2/missao-palindromo-do-setor-v/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "BXCOMP: Volta ao Lar - 2 pontos",
+                "enunciado": "etapas/3/bxcomp-volta-ao-lar/BXCOMP_Volta ao Lar.pdf",
+                "resolucao": "etapas/3/bxcomp-volta-ao-lar/sol.c",
+                "entrada": "etapas/3/bxcomp-volta-ao-lar/1.in",
+                "saida": "etapas/3/bxcomp-volta-ao-lar/1.ans"
             }
         ]
     },
     {
         "etapaIndice": 4,
-        "estaLiberada": true,
+        "estaLiberada": false,
         "tema": "ApocaPET",
-        "descricao": "A coruja (do primeiro projeto do PET) foi raptada por um T-REX!!! &#x1F631; Com o espírito curioso herdado pelas bravas corujas do PET, descubra o fogo e salve a corujita nessa jornada pré-histórica! Prepare-se para explorar a Idade da Pedra e enfrentar desafios jurássicos!",
-        "iconName": "apocaPETIcon.tsx",
+        "icon": "/etapas/imagens/png/apocaPET.png",
         "desafios": [
             {
-                "desafio": "O Frango tá voando - 4 pontos",
-                "enunciado": "etapas/4/o-frango-ta-voando/enunciado.pdf",
-                "resolucao": "etapas/4/o-frango-ta-voando/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Socorro, a coruja tá cercada - X pontos",
+                "enunciado": "etapas/4/socorro-a-coruja-ta-cercada/",
+                "resolucao": "etapas/4/socorro-a-coruja-ta-cercada/",
+                "entrada": "etapas/4/socorro-a-coruja-ta-cercada/",
+                "saida": "etapas/4/socorro-a-coruja-ta-cercada/"
             },
             {
-                "desafio": "Castelo de Diamantes - 4 pontos",
-                "enunciado": "etapas/4/castelo-de-diamantes/enunciado.pdf",
-                "resolucao": "etapas/4/castelo-de-diamantes/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Rush no Bomb - X pontos",
+                "enunciado": "etapas/4/rush-no-bomb/Rush no bomb.pdf",
+                "resolucao": "etapas/4/rush-no-bomb/sol.c",
+                "entrada": "etapas/4/rush-no-bomb/",
+                "saida": "etapas/4/rush-no-bomb/"
             },
             {
-                "desafio": "Não quero ser um desafio do BxComp - 3 pontos",
-                "enunciado": "etapas/4/nao-quero-ser-um-desafio-do-bxcomp/enunciado.pdf",
-                "resolucao": "etapas/4/nao-quero-ser-um-desafio-do-bxcomp/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Rota de Fuga - X pontos",
+                "enunciado": "etapas/4/rota-de-fuga/Rota de Fuga.pdf",
+                "resolucao": "etapas/4/rota-de-fuga/sol.c",
+                "entrada": "etapas/4/rota-de-fuga/",
+                "saida": "etapas/4/rota-de-fuga/"
             },
             {
-                "desafio": "Entraram na mente do Ciborgue - 2 pontos",
-                "enunciado": "etapas/4/entraram-na-mente-do-ciborgue/enunciado.pdf",
-                "resolucao": "etapas/4/entraram-na-mente-do-ciborgue/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "Fato ou Fake?? - X pontos",
+                "enunciado": "etapas/4/fato-ou-fake/FatoOuFake.pdf",
+                "resolucao": "etapas/4/fato-ou-fake/sol.c",
+                "entrada": "etapas/4/fato-ou-fake/1.in",
+                "saida": "etapas/4/fato-ou-fake/1.ans"
             },
             {
-                "desafio": "Nome Sujo! - 4 pontos",
-                "enunciado": "etapas/4/nome-sujo/enunciado.pdf",
-                "resolucao": "etapas/4/nome-sujo/resolucao.c",
-                "casosTeste": "etapas/0/desejo-nao-ser-idiota/casosTeste.zip"
+                "desafio": "PETradoxos em Colapso - X pontos",
+                "enunciado": "etapas/4/petradoxos-em-colapso/PETradoxos_em_Colapso.pdf",
+                "resolucao": "etapas/4/petradoxos-em-colapso/",
+                "entrada": "etapas/4/petradoxos-em-colapso/",
+                "saida": "etapas/4/petradoxos-em-colapso/"
             }
         ]
     }
