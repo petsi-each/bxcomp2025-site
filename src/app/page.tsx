@@ -3,10 +3,10 @@ import Header from '../components/HeaderFooter/Header';
 import Footer from '../components/HeaderFooter/Footer';
 import MainTitle from '../components/MainTitle/MainTitle';
 import Ranking from "../components/Ranking/Ranking"
-import Organizadores from "../components/Organizadores/Organizadores";
 import e from "../data/equipes.json"
 import "./globals.css";
 import EtapasSection from '@/components/Etapas/EtapasSection';
+import Patrocinadores from '@/components/Patrocinadores/Patrocinadores';
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
           <MainTitle></MainTitle>
           <EtapasSection></EtapasSection>
 	        <Ranking equipes={e} displayQuantity={4}></Ranking>
+          <Patrocinadores></Patrocinadores>
 	    <Footer />
     </div>
   );
