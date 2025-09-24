@@ -7,7 +7,7 @@
         "Rafael Pioto Gomes",
         "Thiago de Salvo Castro Alves"
       ],
-      "pontos": [ 0, 5, 0, 0, 0 ],
+      "pontos": [ 0, 5, 8, 0, 0 ],
       "iconPath": "/equipes/forkbomb.png"
     },
     {
@@ -18,7 +18,7 @@
         "Antonio Pedro Costa Oliveira Pretti Espindula",
         "Felipe Yuji Okokama"
       ],
-      "pontos": [ 0, 3, 0, 0, 0 ],
+      "pontos": [ 0, 3, 7, 0, 0 ],
       "iconPath": "/equipes/sefossepython.png"
     },
     {
@@ -29,7 +29,7 @@
         "João Pedro Becer da Cunha",
         "Pedro Paulo Andrade Oliveira"
       ],
-      "pontos": [ 0, 0, 0, 0, 0 ],
+      "pontos": [ 0, 0, 3, 0, 0 ],
       "iconPath": "/equipes/urubupunga.png"
     },
     {
@@ -40,7 +40,7 @@
         "Caique Sidrão Siqueira Barbosa",
         "Filipi Gonçalves Rios"
       ],
-      "pontos": [ 0, 14, 0, 0, 0 ],
+      "pontos": [ 0, 14, 8, 0, 0 ],
       "iconPath": "/equipes/elseif.png"
     },
     {
@@ -51,7 +51,7 @@
         "Mikelly Dantas Reis",
         "Sabrina Cristan"
       ],
-      "pontos": [ 0, 0, 0, 0, 0 ],
+      "pontos": [ 0, 0, 7, 0, 0 ],
       "iconPath": "/equipes/returndivas.png"
     },
     {
@@ -72,7 +72,7 @@
         "Caio Gaspar Paula",
         "Marco Lima Maia"
       ],
-      "pontos": [ 0, 4, 0, 0, 0 ],
+      "pontos": [ 0, 4, 3, 0, 0 ],
       "iconPath": "/equipes/lookwhatyoumadeuscode.png"
     },
     {
@@ -83,7 +83,7 @@
         "Guilherme Delbon Souza",
         "Kaua Ryu Nichioka Egami"
       ],
-      "pontos": [ 0, 9, 0, 0, 0 ],
+      "pontos": [ 0, 9, 7, 0, 0 ],
       "iconPath": "/equipes/jaguatiricasemo.png"
     },
     {
@@ -149,7 +149,7 @@
         "Cristian de Lima Meira",
         "Carlos Vitor de Lima Pinto"
       ],
-      "pontos": [ 0, 10, 0, 0, 0 ],
+      "pontos": [ 0, 10, 14, 0, 0 ],
       "iconPath": "/equipes/ACCN.png"
     },
     {
