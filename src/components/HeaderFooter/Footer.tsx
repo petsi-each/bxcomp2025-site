@@ -17,18 +17,19 @@ const Footer = () => {
             {/* <div className=""></div> */}
             
             {/* Conteúdo do footer posicionado sobre a onda */}
-            <div className="relative left-0 md:top-[200px] top-[320px] w-full flex justify-center items-end">
+            <div className="relative left-0 md:top-[200px] top-[280px] w-full flex justify-center items-end">
                 <div className="max-w-6xl w-full flex flex-col md:flex-row justify-between items-center px-4">
                     <div className="text-preto text-1xl font-normal font-roboto">
                         Desenvolvido por PET-SI 2025
                     </div>
                     
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center [@media(max-width:800px)]:justify-evenly [@media(max-width:800px)]:w-screen md:gap-4 my-[15px]">
 						<img className="w-24 h-auto" src="/images/BXCOMP.png" alt="" />
 						<img className="w-20 h-auto" src="/images/PETLogo.png" alt="" />
+						<img className="w-[7.5rem] h-auto" src="/patrocinios/rocketseat.png" alt="" />
                     </div>
                     
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center [@media(max-width:800px)]:justify-evenly [@media(max-width:800px)]:w-screen md:gap-4">
 						<a href="https://www.facebook.com/petsieach" target="_blank" rel="noopener noreferrer">
 							<img className="w-10 h-10" src="/images/facebookLogo.png" alt="" />
 						</a>
