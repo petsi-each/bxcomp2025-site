@@ -17,7 +17,7 @@ const Footer = () => {
             {/* <div className=""></div> */}
             
             {/* Conteúdo do footer posicionado sobre a onda */}
-            <div className="relative left-0 md:top-[200px] top-[280px] w-full flex justify-center items-end">
+            <div className="relative left-0 md:top-[188px] top-[280px] w-full flex justify-center items-end">
                 <div className="max-w-6xl w-full flex flex-col md:flex-row justify-between items-center px-4">
                     <div className="text-preto text-1xl font-normal font-roboto">
                         Desenvolvido por PET-SI 2025
