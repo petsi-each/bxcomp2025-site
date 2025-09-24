@@ -7,6 +7,7 @@ import e from "../data/equipes.json"
 import "./globals.css";
 import EtapasSection from '@/components/Etapas/EtapasSection';
 import Patrocinadores from '@/components/Patrocinadores/Patrocinadores';
+import Equipes from '@/components/Equipes/Equipes';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
           <MainTitle></MainTitle>
           <EtapasSection></EtapasSection>
+          <Equipes equipes={e}></Equipes>
 	        <Ranking equipes={e} displayQuantity={4}></Ranking>
           <Patrocinadores></Patrocinadores>
 	    <Footer />
