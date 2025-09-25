@@ -8,7 +8,7 @@ import etapasData from '@/data/etapas.json';
 const EtapasSection = () => {
     const [idSelecionado, setIdSelecionado] = useState(0)
     return (
-        <div id="EtapasSection" className="w-full flex flex-col justify-center gap-4 px-7 md:px-20 bg-transparent">
+        <div id="EtapasSection" className="w-full flex flex-col justify-center gap-4 px-7 mb-[4rem] md:px-20 bg-transparent">
             <div id="Cabecalho" className="pt-[2.175rem] mb-[40px]">
                 <h1 className="block font-cinzel_decorative text-[3.2rem] font-[600] text-transparent bg-gradient-to-b from-ouro via-amarelo to-amarelo bg-clip-text">
                     etapas
