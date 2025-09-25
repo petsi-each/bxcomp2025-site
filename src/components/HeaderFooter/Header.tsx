@@ -8,7 +8,7 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="z-10 flex fixed top-0 w-screen justify-between bg-azulescuro items-center py-[5px] pl-8">
+        <header className="z-20 flex fixed top-0 w-screen justify-between bg-azulescuro items-center py-[5px] pl-8">
             <Link href="/">
                 <img className="w-[160px]" src="./images/LogoBX.png"></img>
             </Link>
