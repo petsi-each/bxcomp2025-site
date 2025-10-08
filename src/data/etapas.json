@@ -133,22 +133,22 @@
     },
     {
         "etapaIndice": 3,
-        "estaLiberada": false,
+        "estaLiberada": true,
         "tema": "Dimensão Intergaláctica",
         "descricao": "Por algum motivo, as coruja de OWLBI e COMPETEC foram parar em uma dimensão alternativa intergalática, em que os Jogos Sagazes definem o grande campeão das galáxias. Vença os jogos e resgate as corujas. Seja campeão para salvar o Universo",
         "iconName": "dimensaoIntergalacticaIcon.tsx",
         "desafios": [
             {
                 "desafio": "Briga Intergaláctica - 3 pontos",
-                "enunciado": "etapas/3/briga-intergalatica/Acesso_Negado.pdf",
+                "enunciado": "etapas/3/briga-intergalatica/Briga_Intergalatica.pdf",
                 "resolucao": "etapas/3/briga-intergalatica/sol.c",
                 "entrada": "etapas/3/briga-intergalatica/1.in",
                 "saida": "etapas/3/briga-intergalatica/1.ans"
             },
             {
                 "desafio": "Disfarce Perfeito - 6 pontos",
-                "enunciado": "etapas/3/disfarce-perfeito/Briga Intergalática.pdf",
-                "resolucao": "etapas/3/disfarce-perfeito/sol.c",
+                "enunciado": "etapas/3/disfarce-perfeito/disfarce_Perfeito.pdf",
+                "resolucao": "etapas/3/disfarce-perfeito/sol-BFS.c",
                 "entrada": "etapas/3/disfarce-perfeito/1.in",
                 "saida": "etapas/3/disfarce-perfeito/1.ans"
             },
@@ -161,14 +161,14 @@
             },
             {
                 "desafio": "Portais da Loucura - 4 pontos",
-                "enunciado": "etapas/3/portais-da-loucura/Portais da Loucura.pdf",
+                "enunciado": "etapas/3/portais-da-loucura/Portais_da_Loucura.pdf",
                 "resolucao": "etapas/3/portais-da-loucura/sol.c",
                 "entrada": "etapas/3/portais-da-loucura/1.in",
                 "saida": "etapas/3/portais-da-loucura/1.ans"
             },
             {
                 "desafio": "BXCOMP: Volta ao Lar - 2 pontos",
-                "enunciado": "etapas/3/bxcomp-volta-ao-lar/BXCOMP_Volta ao Lar.pdf",
+                "enunciado": "etapas/3/bxcomp-volta-ao-lar/BXCOMP_Volta_ao_Lar.pdf",
                 "resolucao": "etapas/3/bxcomp-volta-ao-lar/sol.c",
                 "entrada": "etapas/3/bxcomp-volta-ao-lar/1.in",
                 "saida": "etapas/3/bxcomp-volta-ao-lar/1.ans"
@@ -177,34 +177,34 @@
     },
     {
         "etapaIndice": 4,
-        "estaLiberada": false,
+        "estaLiberada": true,
         "tema": "ApocaPET",
         "descricao": "Vocês acharam mesmo que resgataram todas as corujas? pois bem... se esqueceram do Coruja Informa! MAIS UMA VEZ, e agora o apocaPET está acontecendo, impeça a imperatriz ditadora que sequestrou a coruja do BXCOMP e encontre a coruja do Coruja Informa, assim, consertando esse futuro maluco em que o PET não tem salinha, as pessoas gostam de monstros ao invés de corujas e nada dá certo para os bixos de SI!",
         "iconName": "apocaPETIcon.tsx",
         "desafios": [
             {
-                "desafio": "Socorro, a coruja tá cercada - X pontos",
-                "enunciado": "etapas/4/socorro-a-coruja-ta-cercada/",
-                "resolucao": "etapas/4/socorro-a-coruja-ta-cercada/",
-                "entrada": "etapas/4/socorro-a-coruja-ta-cercada/",
-                "saida": "etapas/4/socorro-a-coruja-ta-cercada/"
+                "desafio": "Socorro, a coruja tá cercada - 4 pontos",
+                "enunciado": "etapas/4/socorro-a-coruja-ta-cercada/socorro-a-coruja-ta-cercada.pdf",
+                "resolucao": "etapas/4/socorro-a-coruja-ta-cercada/sol.c",
+                "entrada": "etapas/4/socorro-a-coruja-ta-cercada/1.in",
+                "saida": "etapas/4/socorro-a-coruja-ta-cercada/1.ans"
             },
             {
-                "desafio": "Rush no Bomb - X pontos",
-                "enunciado": "etapas/4/rush-no-bomb/Rush no bomb.pdf",
+                "desafio": "Rush no Bomb - 3 pontos",
+                "enunciado": "etapas/4/rush-no-bomb/Rush_no_bomb.pdf",
                 "resolucao": "etapas/4/rush-no-bomb/sol.c",
-                "entrada": "etapas/4/rush-no-bomb/",
-                "saida": "etapas/4/rush-no-bomb/"
+                "entrada": "etapas/4/rush-no-bomb/1.in",
+                "saida": "etapas/4/rush-no-bomb/1.out"
             },
             {
-                "desafio": "Rota de Fuga - X pontos",
+                "desafio": "Rota de Fuga - 2 pontos",
                 "enunciado": "etapas/4/rota-de-fuga/Rota de Fuga.pdf",
                 "resolucao": "etapas/4/rota-de-fuga/sol.c",
-                "entrada": "etapas/4/rota-de-fuga/",
-                "saida": "etapas/4/rota-de-fuga/"
+                "entrada": "etapas/4/rota-de-fuga/1.in",
+                "saida": "etapas/4/rota-de-fuga/1.ans"
             },
             {
-                "desafio": "Fato ou Fake?? - X pontos",
+                "desafio": "Fato ou Fake?? - 3 pontos",
                 "enunciado": "etapas/4/fato-ou-fake/FatoOuFake.pdf",
                 "resolucao": "etapas/4/fato-ou-fake/sol.c",
                 "entrada": "etapas/4/fato-ou-fake/1.in",
@@ -213,9 +213,9 @@
             {
                 "desafio": "PETradoxos em Colapso - X pontos",
                 "enunciado": "etapas/4/petradoxos-em-colapso/PETradoxos_em_Colapso.pdf",
-                "resolucao": "etapas/4/petradoxos-em-colapso/",
-                "entrada": "etapas/4/petradoxos-em-colapso/",
-                "saida": "etapas/4/petradoxos-em-colapso/"
+                "resolucao": "etapas/4/petradoxos-em-colapso/sol.c",
+                "entrada": "etapas/4/petradoxos-em-colapso/1.in",
+                "saida": "etapas/4/petradoxos-em-colapso/1.ans"
             }
         ]
     }
